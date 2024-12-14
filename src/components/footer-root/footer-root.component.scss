@@ -1,0 +1,48 @@
+aside {
+  display: inline;
+}
+@media screen and (min-width: 520px) {
+  .footer-aside {
+    width: 30%;
+    float: left;
+  }
+
+  .footer-description {
+    width: 70%;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .footer-aside {
+    width: 100%;
+  }
+
+  .footer-description {
+    width: 100%;
+  }
+}
+
+.footer-praise {
+  font-size: 24px;
+  font-style: italic;
+  color: pink;
+}
+
+.footer-marketing {
+  font-size: 24px;
+  font-weight: bold;
+  color: deepskyblue;
+}
+
+.footer-fancy {
+  font-size: 40px;
+  font-weight: bolder;
+  color: goldenrod;
+}
+
+.footer-fancy:hover {
+  cursor: crosshair;
+  color: gold;
+}
+
