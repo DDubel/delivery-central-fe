@@ -5,8 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --watch=false",
-    "watch": "ng build --watch=false --configuration development",
-    "test": "ng test --watch=false"
+    "watch": "ng build --watch=false --configuration development"
   },
   "private": true,
   "dependencies": {
