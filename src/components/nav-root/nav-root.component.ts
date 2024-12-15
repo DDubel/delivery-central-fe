@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
-import {RouterLink, RouterLinkActive} from "@angular/router";
+import {RouterLink, RouterLinkActive, RouterOutlet} from "@angular/router";
 
 @Component({
   selector: 'app-nav-root',
   standalone: true,
   imports: [
     RouterLink,
-    RouterLinkActive
+    RouterLinkActive,
+    RouterOutlet
   ],
   templateUrl: './nav-root.component.html',
   styleUrl: './nav-root.component.scss'
