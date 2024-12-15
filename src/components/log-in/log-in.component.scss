@@ -1,0 +1,31 @@
+@media screen and (max-width: 480px) {
+  .form-center {
+    margin: 150px 150px 50px 100px;
+    border: 2px dotted #1A00CC;
+    width: 212px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width:720px) {
+  .form-center {
+    margin: 100px 150px 50px 100px;
+    border: 2px dotted #1A00CC;
+    width: 212px;
+  }
+}
+
+@media screen and (min-width: 720px)  {
+  .form-center {
+    margin: 160px 150px 50px 100px;
+    border: 2px dotted #1A00CC;
+    width: 212px;
+  }
+}
+
+.form-field {
+
+}
+
+.button-container {
+  margin: 5px 200px 0 120px;
+}

@@ -1,0 +1,24 @@
+@media screen and (max-width: 480px) {
+  div {
+    width: 50%;
+    margin: 35% 25% 5% 25%;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 720px) {
+  div {
+    width: 50%;
+    margin: 15% 25% 5% 25%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  div {
+    width: 50%;
+    margin: 20% 25% 5% 25%;
+  }
+}
+
+.mat-mdc-row:hover .mat-mdc-cell {
+  background-color: #1A00CC;
+}
